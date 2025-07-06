@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Indie_Flower } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
 
 const indieFlower = Indie_Flower({
   weight: "400",
@@ -24,6 +25,7 @@ export default function RootLayout({
         className={`${indieFlower.className} antialiased`}
       >
         {children}
+        <Toaster richColors/>
       </body>
     </html>
   );
