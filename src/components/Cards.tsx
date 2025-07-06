@@ -72,7 +72,7 @@ const Cards: React.FC<CardsProps> = ({contentText, source, sourceURl}) => {
       <CardContent 
         ref={factRef}
         className="pt-6">
-        <p className="text-lg text-center font-semibold leading-relaxed text-gray-800 break-words md:text-2xl">
+        <p className="text-lg text-center font-semibold leading-relaxed text-gray-800  md:text-2xl">
           {contentText ?? "Klicke auf Generate, um einen Fakt zu laden."}
         </p>
       </CardContent>
